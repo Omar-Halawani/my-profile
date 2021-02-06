@@ -1,0 +1,85 @@
+body {
+  background-color: #442F38;
+  color: #989C94;
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: center;
+  margin: 50px
+
+}
+h1 {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 15px;
+  font-size: 30px;
+  text-transform: uppercase;
+  box-shadow: 0px 10px 30px rgba(0,0,0);
+  border-radius: 5px;
+}
+
+img{
+  padding: 50px;
+  border-radius: 25%;
+  box-shadow: 0px 0px 10px grey;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #989C94;
+}
+
+a {
+  font-family: 'Libre Franklin', sans-serif;
+  text-decoration: none;
+  color: #d1abad;
+  border-radius: 50px
+}
+a:hover {
+  color: white;
+}
+p {
+  font-family: 'Libre Franklin', sans-serif;
+  color: #efe5dc
+}
+
+h3 {
+    font-size: 25px;
+    box-shadow: 0px 10px 30px rgba(0,0,0);
+    border-radius: 50px;
+    padding: 10px
+
+}
+li {
+   font-size: 50px
+
+}
+ /* Custom design with class (99% of your design)*/
+ .container {
+  width: 700px;
+  margin: 40px auto;
+}
+ @media (max-width: 760px) {
+ .container {
+ width: 600px;
+
+ }
+@media (max-width: 500px) {
+.container {
+  width: 400px
+
+}
+
+.button {
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+
